@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "networkclient",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/davidehcastaneda/NetworkClient",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e5796370da263df8f7171f1336e039d2a67298dd"
+      }
+    }
+  ],
+  "version" : 2
+}
