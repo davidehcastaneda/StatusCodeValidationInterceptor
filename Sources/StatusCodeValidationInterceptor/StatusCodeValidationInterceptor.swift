@@ -1,7 +1,7 @@
 import NetworkClient
 import Foundation
 
-class StatusCodeValidationInterceptor: Interceptor {
+public class StatusCodeValidationInterceptor: Interceptor {
     public init(){
     }
 
