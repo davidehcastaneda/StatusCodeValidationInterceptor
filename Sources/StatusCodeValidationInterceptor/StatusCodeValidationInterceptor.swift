@@ -1,12 +1,11 @@
-import Foundation
 import NetworkClient
-import NetworkRequest
+import Foundation
 
 public class StatusCodeValidationInterceptor: Interceptor {
     public init(){
     }
 
-    public func intercept(request: NetworkRequest, chain: Chain) async throws -> (Data, URLResponse) {
+    public func intercept(request: Request, chain: Chain) async throws -> (Data, URLResponse) {
         let response = try await chain.proceed(request: request)
         try validateHttpStatusCodes(from: response.1)
         return response
