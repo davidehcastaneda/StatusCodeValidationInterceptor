@@ -6,7 +6,16 @@
       "location" : "https://github.com/davidehcastaneda/NetworkClient",
       "state" : {
         "branch" : "main",
-        "revision" : "e5796370da263df8f7171f1336e039d2a67298dd"
+        "revision" : "1e3971fcc50fc701d01c4789ca64df448fcffe5e"
+      }
+    },
+    {
+      "identity" : "networkrequest",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/davidehcastaneda/NetworkRequest",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0bd5c363d2a6efd071bbf9dafd37770b8a6b909a"
       }
     }
   ],
